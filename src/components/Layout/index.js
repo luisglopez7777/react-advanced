@@ -11,7 +11,7 @@ export const Layout = ({ children, title, subtitle }) => {
             </Helmet>
             <Div>
                 {title && <Title>{title}</Title>}
-                {subtitle && <Subtitle>{subtitle}</Subtitle>}
+                {subtitle && <Subtitle >{subtitle}</Subtitle>}
                 {children}
             </Div>
         </>
